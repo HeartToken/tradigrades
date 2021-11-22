@@ -28,14 +28,14 @@ function NavbarCustom(props) {
           <Nav>
             {auth.user && (
               <NavDropdown id="dropdown" title="Account" alignRight={true}>
-                <Link href="/dashboard" passHref={true}>
+                <Link href="/#" passHref={true}>
                   <NavDropdown.Item active={false}>Dashboard</NavDropdown.Item>
                 </Link>
-                <Link href="/settings/general" passHref={true}>
+                <Link href="/#" passHref={true}>
                   <NavDropdown.Item active={false}>Settings</NavDropdown.Item>
                 </Link>
                 <Dropdown.Divider />
-                <Link href="/auth/signout" passHref={true}>
+                <Link href="/#" passHref={true}>
                   <NavDropdown.Item
                     active={false}
                     onClick={(e) => {
@@ -51,7 +51,7 @@ function NavbarCustom(props) {
 
             {!auth.user && (
               <Nav.Item>
-                <Link href="/auth/signin" passHref={true}>
+                <Link href="/#" passHref={true}>
                   <Nav.Link active={false}>Sign in</Nav.Link>
                 </Link>
               </Nav.Item>

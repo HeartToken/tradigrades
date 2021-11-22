@@ -23,13 +23,13 @@ function Footer(props) {
             </Link>
           </div>
           <div className="links right">
-            <Link href="/about">
+            <Link href="/#">
               <a>About</a>
             </Link>
-            <Link href="/faq">
+            <Link href="/#">
               <a>FAQ</a>
             </Link>
-            <Link href="/contact">
+            <Link href="/#">
               <a>Contact</a>
             </Link>
             <a
